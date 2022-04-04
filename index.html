@@ -7,13 +7,16 @@
     <title>Vite App</title>
 </head>
 <body class="bg-gray-200">
-<div class="h-screen flex justify-center items-center">
+<main class="h-screen flex flex-col justify-center items-center">
 
-    <div class="w-32 h-32 bg-indigo-500 text-white flex justify-center items-center rounded-lg shadow-lg shadow-gray-500 opacity-100 cursor-pointer select-all">
-        Hello World
-    </div>
+    <label for="fullName" class="text-center mb-1 text-lg font-bold text-gray-700">Full Name</label>
+    <input type="text" id="fullName"
+           class="px-3 py-3 rounded-lg shadow shadow-gray-400 text-sm w-4/6 placeholder-indigo-200 mb-3 focus:outline-indigo-700"
+           placeholder="Enter your full name" autocomplete="off">
+    <button class="px-4 py-2 bg-gray-800 text-white rounded-lg text-gray-100">Save</button>
 
-</div>
+
+</main>
 
 <script type="module" src="/main.js"></script>
 </body>
